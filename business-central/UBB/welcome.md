@@ -22,9 +22,28 @@ Depending on the pricing model, a monthly basic fee plus a usage-dependent fee (
 
 If your company offers services on demand, it can be time-consuming to bill these individually. Information is often missing, or the billing is confusing. Usage-based billing extends the recurring billing features of subscription billing. To learn more, go to [Overview of subscription billing](../SRB/welcome.md). Usage-based billing lets you seamlessly import usage data from various vendors into [!INCLUDE [prod_short](../includes/prod_short.md)], which processes the data and calculates prices. Using contracts, you can create contract invoices. If you want, you can also display a detailed overview of all items on the invoices. You can include the overview when you print the invoice.
 
-## Usage data​
+## What Is Usage Data?
 
-If usage data is the basis for billing subscription lines, you can import and process the data. Processing the data creates any data that missing, such as subscriptions, subscription lines, and contracts. You process data one time per subscription. Afterwards, [!INCLUDE [prod_short](../includes/prod_short.md)] processes usage data automatically.
+Usage data refers to measurable information about how much of a service, product, or resource a customer actually consumes during a billing period. Instead of charging a flat fee, the business tracks and bills customers based on their real usage.
+
+**Key Points:**
+- **Quantitative:** Usage data is always a number - such as hours, units, gigabytes, transactions, or events.
+- **Collected Regularly:** It’s gathered automatically or manually, often through meters, logs, or digital records.
+- **Drives Billing:** The amount billed is directly linked to the usage data collected.
+
+**Examples:**
+- **Cloud storage:** Number of gigabytes stored or transferred.
+- **Telecom:** Minutes talked, SMS sent, or data used.
+- **Software:** Number of API calls, active users, or transactions processed.
+
+**Why It Matters in Subscription Billing:**
+- **Fairness:** Customers pay for what they actually use.
+- **Scalability:** Supports both small and large customers with variable needs.
+- **Transparency:** Clear, itemized invoices based on real consumption.
+
+In Business Central’s Subscription Billing module, usage data is imported, validated, and used to automatically calculate and generate invoices - making complex, variable billing easy and accurate.
+
+As usage data is the basis for billing subscriptions, you can import and process the data. Processing the data creates any data that's missing, such as subscriptions, subscription lines, and contracts. You process data one time per subscription. Afterwards, [!INCLUDE [prod_short](../includes/prod_short.md)] processes usage data automatically.
 
 The types of usage data can be quite different. The following types are widely used:
 
